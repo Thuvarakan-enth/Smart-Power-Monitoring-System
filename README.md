@@ -37,7 +37,7 @@ This system is designed for **smart homes, IoT energy monitoring, and basic smar
 - Connecting Wires  
 - (Optional) 16x2 I2C LCD Display  
 
-https://github.com/Thuvarakan-enth/Smart-Power-Monitoring-System/blob/main/Images/Screenshot%202026-07-05%20123832.png
+
 
 💡 Working Principle
 
