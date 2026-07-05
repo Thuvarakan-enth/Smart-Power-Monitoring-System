@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1053321773990",
+    "firebase_url": "https://power-meter2-default-rtdb.firebaseio.com",
+    "project_id": "power-meter2",
+    "storage_bucket": "power-meter2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053321773990:android:3cfca7da680d9d6feb4567",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6JTutPDz1Nr8DrYC31dStgkos0OTbQH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053321773990:android:54d8908410313571eb4567",
+        "android_client_info": {
+          "package_name": "com.example.powermeter7"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6JTutPDz1Nr8DrYC31dStgkos0OTbQH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

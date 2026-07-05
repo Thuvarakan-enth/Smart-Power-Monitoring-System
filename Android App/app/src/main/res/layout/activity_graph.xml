@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0D2E"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/chartTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Power Usage Over Time"
+        android:textColor="#00FFFF"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <Spinner
+        android:id="@+id/timePeriodSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:popupBackground="#0B0D2E"
+        android:textColor="#00FFFF" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/energyChart"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/backToMainBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#0066FF"
+        android:text="Back to Dashboard"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#444444"
+        android:text="Logout"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
